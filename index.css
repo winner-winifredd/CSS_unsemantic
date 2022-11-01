@@ -1,0 +1,357 @@
+.titl{
+    text-align: center;
+    font-size: 700%;
+    margin-top: 1%;
+}
+/* .container{
+    background-color: white;
+    height: 150px;
+    
+} */
+.box{
+    background-color: rgba(0, 0, 0, 0.739);
+    height: 50px;
+    margin-top: 5px;
+    color: white;
+    font-size: small;
+    border: 0.2px solid;
+}
+hr{
+    margin-left: 8%;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.588);
+}
+
+.boxx{
+    border-radius: 4px;
+    background: #eee;
+    border: 3px solid;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 12px;
+    height: 50px;
+    position: relative;
+    border-color: white;
+}
+.boxx1{
+    border-radius: 4px;
+    background: #eee;
+    border: 3px solid;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 12px;
+    height: 50px;
+    position: relative;
+    border-color: white;
+}
+
+.box2{
+    background-color: rgba(0, 0, 0, 0.633);
+    height: 50px;
+    margin-top: 5px;
+    color: white;
+    font-size: small;
+    border: 0.2px solid;
+    border-color: white;
+}
+.box3{
+    background-color: rgba(0, 0, 0, 0.41);
+    height: 50px;
+    margin-top: 5px;
+    color: white;
+    font-size: small;
+    white-space: nowrap;
+    border: 0.2px solid;
+    border-color: white;
+}
+.box4{
+    border: 0.2px solid;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.481);
+    height: 50px;
+    margin-top: 5px;
+    color: white;
+    font-size: small;
+    white-space: nowrap;
+}
+.box5{
+    background-color: rgba(0, 0, 0, 0.595);
+    height: 50px;
+    margin-top: 5px;
+    color: white;
+    font-size: small;
+    white-space: nowrap;
+    border: 0.2px solid;
+    border-color: white;
+}
+.box6{
+    background-color: rgba(0, 0, 0, 0.944);
+    height: 50px;
+    margin-top: 5px;
+    color: white;
+    border: 0.2px solid;
+    border-color: white;
+}
+
+.box7{
+    background-color: white;
+    height: 150px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.794);
+    font-size: small;
+    line-height: 150%;
+    margin-bottom: 15%;
+}
+.box8{
+    background-color:#ffffee;
+    height: 250px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.794);
+    font-size: small;
+    word-spacing: 20%;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.056);
+    line-height: 150%;
+    padding-top: 2%; 
+}
+.box10{
+    background-color: #ffffee;
+    height: 200px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.794);
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.056);
+    line-height: 110%;
+    padding-top: 2%; 
+}
+.box12{
+    padding-top: 2%;
+    background-color: rgba(250, 250, 250, 0.913);
+    height: 170px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.794);
+    font-size: small;
+    word-spacing: 20%; 
+    text-align: center;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.056);
+}
+.box9{
+    background-color: white;
+    height: 50px;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    font-size: 150%;
+    font-weight: 900;
+}
+.box91{
+    background-color: white;
+    height: 50px;
+    margin-top: 2%;
+    margin-bottom: -1%;
+    font-size: 150%;
+    font-weight: 900;
+}
+.box11{
+    margin-top: 1%;
+    font-size: small;
+    line-height: 150%; 
+    line-height: 20px;
+
+}
+.strng{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+.blak{
+    font-size: xx-small;
+}
+.log{
+    margin-top: 2%;
+}
+.last{
+    font-size: small;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.588);
+    text-align: center;
+    bottom: 0;
+}
+
+/* modal css */
+.modal {
+    margin-left: 5%;
+    line-height: 25px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    /* left: 0; */
+    /* top: 0; */
+    text-align: center;
+    width: 0%; /* Full width */
+    /* height: -100%; Full height */
+    /* overflow: auto; /* Enable scroll if needed */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+    /* -webkit-animation-name: fadeIn; Fade in the background */
+    /* -webkit-animation-duration: 0.4s; */ 
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    font-size: large;
+    position: fixed;
+    /* bottom: 0; */
+    /* background-color: #fefefe; */
+    width: 15%;
+    padding: 3.5%;
+    /* -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #d3c6c6;
+    color: black;
+  }
+  
+  .modal-body {
+    padding: 2px 16px;
+    background-color: #f0eaea;
+    color: black;
+    font-size: 100%;
+}
+
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #d3c7c8;
+    color: black;
+    font-size: small;
+  }
+  
+  /* Add Animation */
+  /* @-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  } */
+
+@media (max-width: 768px) {
+    /* .box8{
+        font-size: 8px;
+
+    }
+    .box10{
+        font-size: 10px;
+
+    }
+    .box12{
+        font-size: 10px;
+
+    }
+    .box11{
+        font-size: 10px;
+
+    }
+    .box7{
+        font-size: 10px;
+        margin-bottom: 45%;
+    } */
+
+    .modal{
+        display: none;
+    }
+
+    .container1{
+        display: grid;
+        vertical-align: center;
+        text-align: center;
+    }
+    .boxx{
+        display: none;
+    }
+    .box91{
+        display: none;
+    }
+    .box6{
+        display: none;
+    }
+    .container4{
+        display: grid;
+        vertical-align: center;
+        white-space: nowrap;
+        margin-top: 10%;
+    }
+    .container2{
+        display: grid;
+        vertical-align: center;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .container3{
+        display: grid;
+        vertical-align: center;
+        text-align: center;
+        margin-top: 10%;
+    
+    
+    }
+    .container5{
+        margin-top: 20%;
+        display: grid;
+        vertical-align: center;
+        text-align: center;
+    }
+    .box11{
+        margin-top: 1%;
+    }
+    .box7{
+        margin-bottom: 5%;
+
+    }
+   
+    .titl{
+       font-size: 350%; 
+    }
+    .hrr{
+        margin-top: 20%;
+        /* visibility: hidden; */
+    }
+   
+}
+
+
+
